@@ -1,6 +1,6 @@
-// 데이터 모듈
+// API 모듈 - ax5-ui-grid.js
 var Study = Study||{}
-Study.DataModule = function () {
+Study.AX5UIGridModule = function () {
     // 참조 DOM
     var refDOM = {
         dom1:$('#dom1'),
@@ -14,6 +14,7 @@ Study.DataModule = function () {
         printDom : function () {
             return refDOM.dom1.text() + refDOM.dom12.text() + refDOM.dom3.text()
         },
+        
         // AJAX 요청 (추가적인 조절 필요)
         ajaxCall : function (callback) {
             $.ajax({

@@ -1,4 +1,5 @@
 // 뷰 모듈
+var Study = Study||{}
 Study.ViewModule = function (dataModule, options) {
     // 업데이트 DOM
     var updateDOM = options.updateDOM;

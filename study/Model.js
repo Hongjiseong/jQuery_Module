@@ -1,4 +1,5 @@
 // Study 모듈
+var Study = Study||{}
 Study.Model = function (initName) {
     // Model 객체 파라미터
     var name = initName;
