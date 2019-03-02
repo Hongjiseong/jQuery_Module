@@ -3,13 +3,11 @@ var LIST = LIST || {};
 $(function () {
     // 전역 데이터
     LIST.Data = (function () {
-        var page={
-            pageCnt : 0,
-            dataCnt : 0
-        };
+        var pageNo = 1;
 
         return {
-            pageData : page,
+            getPageNo : function (){return pageNo;},
+            setPageNo : function (no){pageNo = no}
         }
     })();
 
