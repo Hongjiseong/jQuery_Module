@@ -26,7 +26,6 @@ Module.UI = (function () {
 
 // Module - Request
 Module.Request = (function () {
-
     // AJAX - submit(options)
     var submit = function (o) {
         $.ajax({
