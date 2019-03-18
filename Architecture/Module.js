@@ -22,6 +22,37 @@ Module.UI = (function () {
         // DOM1 - Data Request
         Module.Request.select();
     });
+
+    return {
+        info : [
+            // #DOM1 (Hong)
+            {
+                DOM_Name : '#DOM1', 
+                Event : [
+                    {
+                        name : 'click',
+                        description : {
+                            ui_event : "",
+                            request_event : ""
+                        }
+                    }
+                ]
+            },
+            // #DOM2 (Hong)
+            {
+                DOM_Name : '#DOM2', 
+                Event : [
+                    {
+                        name : 'click',
+                        description : {
+                            ui_event : "",
+                            request_event : ""
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 })();
 
 // Module - Request
