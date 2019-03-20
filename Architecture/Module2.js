@@ -1,5 +1,7 @@
 var Module = Module || {}
 
+Module.LogLevel = 'DEBUG';
+
 Module.UI = function(requestM, validM){
     var triggerDOM = {
         tDOM : $('#tDOM')
