@@ -2,6 +2,36 @@ var Module = Module || {}
 
 Module.LogLevel = 'DEBUG';
 
+Module.Pop = function(){
+    var opener = '';
+
+    var defaultOptions = {
+        width:200,
+        height:400
+    }
+
+    return {
+        openPop : function(){
+            var centerX = ($(window).width() - defaultOptions.width)/2;
+            var centerY = ($(window).height() - defaultOptions.height)/2;
+    
+            opener = window.open(
+                url,
+                name,
+                'channelmode=no,fullscreen=no,width='+width
+                +',height='+height
+                +',left='+centerX
+                +',top='+centerY
+                +',location=no,menubar=no,resizable=no,scrollbars=yes,status=no,toolbar=no,titlebar=yes'
+                ,false
+            );   
+        },
+        setList : function(){
+            $('#target').val(opener.document.get);
+        }
+    }
+}
+
 Module.UI = function(requestM, validM){
     var triggerDOM = {
         tDOM : $('#tDOM')
