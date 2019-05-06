@@ -1,3 +1,6 @@
 Module1 - CRUD 모듈     : 싱글톤 
 Module2 - CRUD 모듈     : 객체주입
 Module3 - CRUD 모듈     : 구현
+
+TagFormat1 - HTML 작성법 : 직접작성
+TagFormat1 - HTML 작성법 : Airbnb
